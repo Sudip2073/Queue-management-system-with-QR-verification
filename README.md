@@ -1,4 +1,4 @@
-# Hospital Management System
+# Hospital Queue Management System
 Hospital Queue Management System using MySQL, Php , Bootstrap and QR verification
 
 
