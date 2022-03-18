@@ -460,8 +460,9 @@ function get_specs(){
                     <th scope="col">Appointment Date</th>
                     <th scope="col">Appointment Time</th>
                     <th scope="col">Current Status</th>
+                    <th scope="col">More detail</th>
                     <th scope="col">Action</th>
-                    <th scope="col">QR</th>
+                    
 
                   </tr>
                 </thead>
@@ -502,7 +503,8 @@ function get_specs(){
                       echo "Cancelled by Doctor";
                     }
                         ?></td>
-
+                        <td>
+                          <a href="QR" button class="btn btn-danger" role="button">View</a></td>
                         <td>
                         <?php if(($row['userStatus']==1) && ($row['doctorStatus']==1))  
                         { ?>
@@ -517,8 +519,7 @@ function get_specs(){
                                 } ?>
                         
                         </td>
-                        <td>
-                          <a href="QR" button class="btn btn-danger" role="button">View</a></td>
+                        
 
                       </tr>
                     <?php } ?>
