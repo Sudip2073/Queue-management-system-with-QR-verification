@@ -80,11 +80,9 @@ $con=mysqli_connect("localhost","root","","myhmsdb");
   <body style="padding-top:50px;">
   
    <div class="container-fluid" style="margin-top:50px;">
-    <h3 style = "margin-left: 40%;  padding-bottom: 20px; font-family: 'IBM Plex Sans', sans-serif;"> Here is your QR code &nbsp<?php echo $username ?> 
+    <h3 style = "text-align:center; font-family: 'IBM Plex Sans', sans-serif;">Patient Name:  &nbsp<?php echo $username ?> 
    </h3>
-   <h4 style = "margin-left: 50%;  padding-bottom: 20px; font-family: 'IBM Plex Sans', sans-serif;">Patient ID=<?php echo $pid ?></h4> 
-   <h4 style="margin-left: 48%;  padding-bottom: 20px; font-family: 'IBM Plex Sans', sans-serif;">Scan for verification</h4>
-
+   <h4 style = "text-align:center; font-family: 'IBM Plex Sans', sans-serif;">Patient ID: <?php echo $pid ?></h4> 
     <div class="row">
   <div class="col-md-4" style="max-width:25%; margin-top: 3%">
     <div class="list-group" id="list-tab" role="tablist">
@@ -101,10 +99,10 @@ $con=mysqli_connect("localhost","root","","myhmsdb");
               <div class="row">
                
 
-                <div class="col-sm-4" style=" margin-left: 200px;">
+                <div class="col-sm-4" style=" margin-left: 170px;">
                   <div class="panel panel-white no-radius text-center">
                     <div class="panel-body" >
-                      <img src="images\QR.png" alt="Flowers in a" width="460" height="345">
+                      <img src="images\QR.png" alt="Flowers in a" width="460" height="520">
                       
                     </div>
                   </div>
@@ -112,18 +110,13 @@ $con=mysqli_connect("localhost","root","","myhmsdb");
                 </div>         
             </div>
           </div>
-
-
-
-
-
       <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-4" style=" margin-left: 200px;">
+            <div class="col-sm-4" style=" margin-left: 170px;">
               <div class="panel panel-white no-radius text-center">
                     <div class="panel-body" >
-                      <img src="images\QR.png" alt="Flowers in a" width="460" height="345">
+                      <img src="images\My_PDF.png" alt="Flowers in a" width="460" height="520">
                       
                     </div>
               </div>
